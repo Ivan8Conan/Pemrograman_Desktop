@@ -1,0 +1,53 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Ivan\\source\\repos\\Kalkulator\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{97D5DC2F-D1C7-4558-A753-4052D271BA08}|Kalkulator\\Kalkulator.vbproj|c:\\users\\ivan\\source\\repos\\kalkulator\\kalkulator\\form1.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "RelativeMoniker": "D:0:0:{97D5DC2F-D1C7-4558-A753-4052D271BA08}|Kalkulator\\Kalkulator.vbproj|solutionrelative:kalkulator\\form1.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{97D5DC2F-D1C7-4558-A753-4052D271BA08}|Kalkulator\\Kalkulator.vbproj|c:\\users\\ivan\\source\\repos\\kalkulator\\kalkulator\\form1.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{97D5DC2F-D1C7-4558-A753-4052D271BA08}|Kalkulator\\Kalkulator.vbproj|solutionrelative:kalkulator\\form1.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Form1.vb",
+              "DocumentMoniker": "C:\\Users\\Ivan\\source\\repos\\Kalkulator\\Kalkulator\\Form1.vb",
+              "RelativeDocumentMoniker": "Kalkulator\\Form1.vb",
+              "ToolTip": "C:\\Users\\Ivan\\source\\repos\\Kalkulator\\Kalkulator\\Form1.vb",
+              "RelativeToolTip": "Kalkulator\\Form1.vb",
+              "ViewState": "AgIAAEkAAAAAAAAAAADwv18AAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2025-02-04T06:11:49.998Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Form1.vb [Design]",
+              "DocumentMoniker": "C:\\Users\\Ivan\\source\\repos\\Kalkulator\\Kalkulator\\Form1.vb",
+              "RelativeDocumentMoniker": "Kalkulator\\Form1.vb",
+              "ToolTip": "C:\\Users\\Ivan\\source\\repos\\Kalkulator\\Kalkulator\\Form1.vb [Design]",
+              "RelativeToolTip": "Kalkulator\\Form1.vb [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2025-02-04T05:05:08.649Z",
+              "EditorCaption": " [Design]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
