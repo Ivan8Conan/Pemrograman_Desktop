@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Ivan\\source\\repos\\Kalkulator\\Kalkulator\\Kalkulator.vbproj",
+      "projectUniqueName": "C:\\Users\\Ivan\\OneDrive - Duta Wacana Christian University\\SEMESTER 2\\Semester 6\\Pemrograman Desktop\\Tugas\\Pemrograman_Desktop\\Kalkulator\\Kalkulator\\Kalkulator.vbproj",
       "projectName": "Kalkulator",
-      "projectPath": "C:\\Users\\Ivan\\source\\repos\\Kalkulator\\Kalkulator\\Kalkulator.vbproj",
+      "projectPath": "C:\\Users\\Ivan\\OneDrive - Duta Wacana Christian University\\SEMESTER 2\\Semester 6\\Pemrograman Desktop\\Tugas\\Pemrograman_Desktop\\Kalkulator\\Kalkulator\\Kalkulator.vbproj",
       "packagesPath": "C:\\Users\\Ivan\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Ivan\\source\\repos\\Kalkulator\\Kalkulator\\obj\\",
+      "outputPath": "C:\\Users\\Ivan\\OneDrive - Duta Wacana Christian University\\SEMESTER 2\\Semester 6\\Pemrograman Desktop\\Tugas\\Pemrograman_Desktop\\Kalkulator\\Kalkulator\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
