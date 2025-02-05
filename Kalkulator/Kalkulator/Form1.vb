@@ -207,10 +207,10 @@
         End If
     End Sub
 
-    Private Sub cmdSqrt_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles CmdSqrt.Click
+    Private Sub cmdSqrt_Click(ByVal sender As Object, ByVal e As EventArgs) Handles CmdSqrt.Click
         If txtInput.Text.Length <> 0 Then
             tmpValue = CType(txtInput.Text, Double)
-            tmpValue = System.Math.Sqrt(tmpValue)
+            tmpValue = Math.Sqrt(tmpValue)
             txtInput.Text = CType(tmpValue, String)
             hasDecimal = False
         End If
@@ -277,4 +277,14 @@
             Return n * Faktorial(n - 1)
         End If
     End Function
+
+    Private Sub CmdCbrt_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles CmdCbrt.Click
+        If txtInput.Text.Length <> 0 Then
+            Dim number As Double = CDbl(txtInput.Text)
+            Dim result As Double = Math.Cbrt(number) 'Fungsi bawaan akar pangkat'
+
+            txtInput.Text = CStr(result)
+            hasDecimal = result.ToString().Contains(".")
+        End If
+    End Sub
 End Class

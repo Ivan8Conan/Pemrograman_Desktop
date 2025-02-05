@@ -49,6 +49,7 @@ Partial Class Form1
         cmdC = New Button()
         cmdCE = New Button()
         cmdBackspace = New Button()
+        CmdCbrt = New Button()
         Panel1.SuspendLayout()
         Panel2.SuspendLayout()
         SuspendLayout()
@@ -73,6 +74,7 @@ Partial Class Form1
         ' 
         ' Panel2
         ' 
+        Panel2.Controls.Add(CmdCbrt)
         Panel2.Controls.Add(CmdFactorial)
         Panel2.Controls.Add(CmdDecimal)
         Panel2.Controls.Add(CmdAddition)
@@ -99,7 +101,7 @@ Partial Class Form1
         Panel2.Controls.Add(cmdBackspace)
         Panel2.Location = New Point(32, 97)
         Panel2.Name = "Panel2"
-        Panel2.Size = New Size(329, 291)
+        Panel2.Size = New Size(329, 350)
         Panel2.TabIndex = 1
         ' 
         ' CmdFactorial
@@ -140,9 +142,9 @@ Partial Class Form1
         ' 
         ' CmdEqual
         ' 
-        CmdEqual.Location = New Point(261, 229)
+        CmdEqual.Location = New Point(206, 283)
         CmdEqual.Name = "CmdEqual"
-        CmdEqual.Size = New Size(49, 48)
+        CmdEqual.Size = New Size(104, 48)
         CmdEqual.TabIndex = 41
         CmdEqual.Text = "="
         CmdEqual.UseVisualStyleBackColor = True
@@ -318,11 +320,21 @@ Partial Class Form1
         cmdBackspace.Text = "Backspace"
         cmdBackspace.UseVisualStyleBackColor = True
         ' 
+        ' CmdCbrt
+        ' 
+        CmdCbrt.Font = New Font("Segoe UI", 10F)
+        CmdCbrt.Location = New Point(261, 229)
+        CmdCbrt.Name = "CmdCbrt"
+        CmdCbrt.Size = New Size(49, 48)
+        CmdCbrt.TabIndex = 45
+        CmdCbrt.Text = "∛x"
+        CmdCbrt.UseVisualStyleBackColor = True
+        ' 
         ' Form1
         ' 
         AutoScaleDimensions = New SizeF(8F, 20F)
         AutoScaleMode = AutoScaleMode.Font
-        ClientSize = New Size(392, 404)
+        ClientSize = New Size(392, 459)
         Controls.Add(Panel2)
         Controls.Add(Panel1)
         Name = "Form1"
@@ -360,5 +372,6 @@ Partial Class Form1
     Friend WithEvents Cmd3 As Button
     Friend WithEvents Cmd2 As Button
     Friend WithEvents CmdFactorial As Button
+    Friend WithEvents CmdCbrt As Button
 
 End Class
