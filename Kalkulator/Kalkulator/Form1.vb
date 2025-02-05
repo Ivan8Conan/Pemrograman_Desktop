@@ -254,4 +254,27 @@
             hasDecimal = False
         End If
     End Sub
+
+    Private Sub CmdFactorial_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles CmdFactorial.Click
+        If txtInput.Text.Length <> 0 Then
+            Dim number As Integer = CInt(txtInput.Text)
+            ''Error jika angka / number negatif'
+            If number < 0 Then
+                MessageBox.Show("Angka Negatif Tidak Valid.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error)
+                Exit Sub
+            End If
+            Dim result As Double = Faktorial(number)
+            txtInput.Text = CStr(result)
+            hasDecimal = False
+        End If
+    End Sub
+
+
+    Private Function Faktorial(ByVal n As Integer) As Double
+        If n = 0 Or n = 1 Then
+            Return 1
+        Else
+            Return n * Faktorial(n - 1)
+        End If
+    End Function
 End Class

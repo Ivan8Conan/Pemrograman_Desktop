@@ -25,8 +25,10 @@ Partial Class Form1
         Panel1 = New Panel()
         txtInput = New TextBox()
         Panel2 = New Panel()
+        CmdFactorial = New Button()
         CmdDecimal = New Button()
         CmdAddition = New Button()
+        CmdPowerOf = New Button()
         CmdEqual = New Button()
         CmdSign = New Button()
         CmdInverse = New Button()
@@ -36,7 +38,6 @@ Partial Class Form1
         Cmd0 = New Button()
         Cmd1 = New Button()
         CmdSqrt = New Button()
-        CmdPowerOf = New Button()
         Cmd6 = New Button()
         Cmd5 = New Button()
         Cmd4 = New Button()
@@ -72,6 +73,7 @@ Partial Class Form1
         ' 
         ' Panel2
         ' 
+        Panel2.Controls.Add(CmdFactorial)
         Panel2.Controls.Add(CmdDecimal)
         Panel2.Controls.Add(CmdAddition)
         Panel2.Controls.Add(CmdPowerOf)
@@ -100,6 +102,15 @@ Partial Class Form1
         Panel2.Size = New Size(329, 291)
         Panel2.TabIndex = 1
         ' 
+        ' CmdFactorial
+        ' 
+        CmdFactorial.Location = New Point(129, 13)
+        CmdFactorial.Name = "CmdFactorial"
+        CmdFactorial.Size = New Size(49, 48)
+        CmdFactorial.TabIndex = 44
+        CmdFactorial.Text = "n!"
+        CmdFactorial.UseVisualStyleBackColor = True
+        ' 
         ' CmdDecimal
         ' 
         CmdDecimal.Location = New Point(129, 229)
@@ -117,6 +128,15 @@ Partial Class Form1
         CmdAddition.TabIndex = 42
         CmdAddition.Text = "+"
         CmdAddition.UseVisualStyleBackColor = True
+        ' 
+        ' CmdPowerOf
+        ' 
+        CmdPowerOf.Location = New Point(261, 67)
+        CmdPowerOf.Name = "CmdPowerOf"
+        CmdPowerOf.Size = New Size(49, 48)
+        CmdPowerOf.TabIndex = 32
+        CmdPowerOf.Text = "X^"
+        CmdPowerOf.UseVisualStyleBackColor = True
         ' 
         ' CmdEqual
         ' 
@@ -198,15 +218,6 @@ Partial Class Form1
         CmdSqrt.TabIndex = 33
         CmdSqrt.Text = "SQRT"
         CmdSqrt.UseVisualStyleBackColor = True
-        ' 
-        ' CmdPowerOf
-        ' 
-        CmdPowerOf.Location = New Point(261, 67)
-        CmdPowerOf.Name = "CmdPowerOf"
-        CmdPowerOf.Size = New Size(49, 48)
-        CmdPowerOf.TabIndex = 32
-        CmdPowerOf.Text = "X^"
-        CmdPowerOf.UseVisualStyleBackColor = True
         ' 
         ' Cmd6
         ' 
@@ -348,5 +359,6 @@ Partial Class Form1
     Friend WithEvents CmdSubtract As Button
     Friend WithEvents Cmd3 As Button
     Friend WithEvents Cmd2 As Button
+    Friend WithEvents CmdFactorial As Button
 
 End Class
